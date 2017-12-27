@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UILabel+category.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UILabel *label = [[UILabel alloc] init];
+    label.text = @"sdflkajflajdalkdjfalksjfajfal";
+    label.frame = CGRectMake(100, 100, 100, 100);
+    label.textColor = [UIColor redColor];
+    label.numberOfLines = 0;
+    [self.view addSubview:label];
+    NSLog(@"%@",label.custom_titleName);
 }
 
 
