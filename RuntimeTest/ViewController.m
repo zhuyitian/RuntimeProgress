@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    //这样不会崩
+    //因为通常我们存字典的数据是请求下来的，所以要保证在极端情况下，即使数据某个值为空也不能是程序崩溃，所以在Runtime里加一层保护措施是很有必要的，这里只是举个例子，还有其他可能会导致崩溃的问题都可以在Runtime里加一层保护措施。
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     [dic setObject:nil forKey:nil];
     NSLog(@"%@",dic);
