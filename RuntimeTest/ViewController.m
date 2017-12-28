@@ -18,18 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    //这样不会崩
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:nil forKey:nil];
+    NSLog(@"%@",dic);
     
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    //Runtime实用途径举个例子：
     UILabel *label = [[UILabel alloc] init];
-    label.text = @"sdflkajflajdalkdjfalksjfajfal";
+    label.text = @"一样的";
     label.frame = CGRectMake(100, 100, 100, 100);
     label.textColor = [UIColor redColor];
     label.numberOfLines = 0;
     [self.view addSubview:label];
-    NSLog(@"%@",label.custom_titleName);
 }
 
 

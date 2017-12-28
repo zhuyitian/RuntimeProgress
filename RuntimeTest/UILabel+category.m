@@ -23,6 +23,7 @@
 }
 
 - (void)exchangeText:(NSString *)text {
+    
     if ([text isEqualToString:@"一样的"]) {
         text = @"不一样";
     }
@@ -34,7 +35,6 @@
     if (color == [UIColor redColor]) {
         color = [UIColor blueColor];
     }
-    
     [self exchangeTextColor:color];
 }
 
