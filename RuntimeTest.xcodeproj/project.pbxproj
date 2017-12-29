@@ -13,50 +13,10 @@
 		0C701ADA1FF22B1A00612109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C701AD91FF22B1A00612109 /* Assets.xcassets */; };
 		0C701ADD1FF22B1A00612109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C701ADB1FF22B1A00612109 /* LaunchScreen.storyboard */; };
 		0C701AE01FF22B1A00612109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701ADF1FF22B1A00612109 /* main.m */; };
-		0C701AEA1FF22B1B00612109 /* RuntimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701AE91FF22B1B00612109 /* RuntimeTestTests.m */; };
-		0C701AF51FF22B1B00612109 /* RuntimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701AF41FF22B1B00612109 /* RuntimeTestUITests.m */; };
 		0C701B041FF22B3600612109 /* NSObject+ZYTSwizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B031FF22B3600612109 /* NSObject+ZYTSwizz.m */; };
 		0C701B0D1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B0C1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m */; };
 		0C701B161FF2494700612109 /* UILabel+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B151FF2494700612109 /* UILabel+category.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0C701AE61FF22B1B00612109 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C701AC51FF22B1A00612109 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C701ACC1FF22B1A00612109;
-			remoteInfo = RuntimeTest;
-		};
-		0C701AF11FF22B1B00612109 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C701AC51FF22B1A00612109 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C701ACC1FF22B1A00612109;
-			remoteInfo = RuntimeTest;
-		};
-		0C701B331FF33B9400612109 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C701AC51FF22B1A00612109 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C701B1A1FF33B9300612109;
-			remoteInfo = RuntimeTwo;
-		};
-		0C701B3E1FF33B9400612109 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C701AC51FF22B1A00612109 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C701B1A1FF33B9300612109;
-			remoteInfo = RuntimeTwo;
-		};
-		0C701B4D1FF33BA700612109 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0C701AC51FF22B1A00612109 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0C701ACC1FF22B1A00612109;
-			remoteInfo = RuntimeTest;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0C701ACD1FF22B1A00612109 /* RuntimeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,10 +29,8 @@
 		0C701ADC1FF22B1A00612109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C701ADE1FF22B1A00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C701ADF1FF22B1A00612109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C701AE51FF22B1B00612109 /* RuntimeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C701AE91FF22B1B00612109 /* RuntimeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestTests.m; sourceTree = "<group>"; };
 		0C701AEB1FF22B1B00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C701AF01FF22B1B00612109 /* RuntimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C701AF41FF22B1B00612109 /* RuntimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestUITests.m; sourceTree = "<group>"; };
 		0C701AF61FF22B1B00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C701B021FF22B3600612109 /* NSObject+ZYTSwizz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYTSwizz.h"; sourceTree = "<group>"; };
@@ -81,48 +39,10 @@
 		0C701B0C1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZYTCategory.m"; sourceTree = "<group>"; };
 		0C701B141FF2494700612109 /* UILabel+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+category.h"; sourceTree = "<group>"; };
 		0C701B151FF2494700612109 /* UILabel+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+category.m"; sourceTree = "<group>"; };
-		0C701B1B1FF33B9300612109 /* RuntimeTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C701B321FF33B9400612109 /* RuntimeTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C701B3D1FF33B9400612109 /* RuntimeTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0C701ACA1FF22B1A00612109 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701AE21FF22B1B00612109 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701AED1FF22B1B00612109 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B181FF33B9300612109 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B2F1FF33B9400612109 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B3A1FF33B9400612109 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -146,11 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				0C701ACD1FF22B1A00612109 /* RuntimeTest.app */,
-				0C701AE51FF22B1B00612109 /* RuntimeTestTests.xctest */,
-				0C701AF01FF22B1B00612109 /* RuntimeTestUITests.xctest */,
-				0C701B1B1FF33B9300612109 /* RuntimeTwo.app */,
-				0C701B321FF33B9400612109 /* RuntimeTwoTests.xctest */,
-				0C701B3D1FF33B9400612109 /* RuntimeTwoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,96 +130,6 @@
 			productReference = 0C701ACD1FF22B1A00612109 /* RuntimeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0C701AE41FF22B1B00612109 /* RuntimeTestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C701AFC1FF22B1B00612109 /* Build configuration list for PBXNativeTarget "RuntimeTestTests" */;
-			buildPhases = (
-				0C701AE11FF22B1B00612109 /* Sources */,
-				0C701AE21FF22B1B00612109 /* Frameworks */,
-				0C701AE31FF22B1B00612109 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C701AE71FF22B1B00612109 /* PBXTargetDependency */,
-			);
-			name = RuntimeTestTests;
-			productName = RuntimeTestTests;
-			productReference = 0C701AE51FF22B1B00612109 /* RuntimeTestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0C701AEF1FF22B1B00612109 /* RuntimeTestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C701AFF1FF22B1B00612109 /* Build configuration list for PBXNativeTarget "RuntimeTestUITests" */;
-			buildPhases = (
-				0C701AEC1FF22B1B00612109 /* Sources */,
-				0C701AED1FF22B1B00612109 /* Frameworks */,
-				0C701AEE1FF22B1B00612109 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C701AF21FF22B1B00612109 /* PBXTargetDependency */,
-			);
-			name = RuntimeTestUITests;
-			productName = RuntimeTestUITests;
-			productReference = 0C701AF01FF22B1B00612109 /* RuntimeTestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-		0C701B1A1FF33B9300612109 /* RuntimeTwo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C701B441FF33B9400612109 /* Build configuration list for PBXNativeTarget "RuntimeTwo" */;
-			buildPhases = (
-				0C701B171FF33B9300612109 /* Sources */,
-				0C701B181FF33B9300612109 /* Frameworks */,
-				0C701B191FF33B9300612109 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RuntimeTwo;
-			productName = RuntimeTwo;
-			productReference = 0C701B1B1FF33B9300612109 /* RuntimeTwo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		0C701B311FF33B9400612109 /* RuntimeTwoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C701B471FF33B9400612109 /* Build configuration list for PBXNativeTarget "RuntimeTwoTests" */;
-			buildPhases = (
-				0C701B2E1FF33B9400612109 /* Sources */,
-				0C701B2F1FF33B9400612109 /* Frameworks */,
-				0C701B301FF33B9400612109 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C701B341FF33B9400612109 /* PBXTargetDependency */,
-			);
-			name = RuntimeTwoTests;
-			productName = RuntimeTwoTests;
-			productReference = 0C701B321FF33B9400612109 /* RuntimeTwoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0C701B3C1FF33B9400612109 /* RuntimeTwoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0C701B4A1FF33B9400612109 /* Build configuration list for PBXNativeTarget "RuntimeTwoUITests" */;
-			buildPhases = (
-				0C701B391FF33B9400612109 /* Sources */,
-				0C701B3A1FF33B9400612109 /* Frameworks */,
-				0C701B3B1FF33B9400612109 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0C701B3F1FF33B9400612109 /* PBXTargetDependency */,
-				0C701B4E1FF33BA700612109 /* PBXTargetDependency */,
-			);
-			name = RuntimeTwoUITests;
-			productName = RuntimeTwoUITests;
-			productReference = 0C701B3D1FF33B9400612109 /* RuntimeTwoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -317,30 +142,6 @@
 					0C701ACC1FF22B1A00612109 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
-					};
-					0C701AE41FF22B1B00612109 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0C701ACC1FF22B1A00612109;
-					};
-					0C701AEF1FF22B1B00612109 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0C701ACC1FF22B1A00612109;
-					};
-					0C701B1A1FF33B9300612109 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
-					0C701B311FF33B9400612109 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0C701B1A1FF33B9300612109;
-					};
-					0C701B3C1FF33B9400612109 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 0C701B1A1FF33B9300612109;
 					};
 				};
 			};
@@ -358,11 +159,6 @@
 			projectRoot = "";
 			targets = (
 				0C701ACC1FF22B1A00612109 /* RuntimeTest */,
-				0C701AE41FF22B1B00612109 /* RuntimeTestTests */,
-				0C701AEF1FF22B1B00612109 /* RuntimeTestUITests */,
-				0C701B1A1FF33B9300612109 /* RuntimeTwo */,
-				0C701B311FF33B9400612109 /* RuntimeTwoTests */,
-				0C701B3C1FF33B9400612109 /* RuntimeTwoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -375,41 +171,6 @@
 				0C701ADD1FF22B1A00612109 /* LaunchScreen.storyboard in Resources */,
 				0C701ADA1FF22B1A00612109 /* Assets.xcassets in Resources */,
 				0C701AD81FF22B1A00612109 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701AE31FF22B1B00612109 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701AEE1FF22B1B00612109 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B191FF33B9300612109 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B301FF33B9400612109 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B3B1FF33B9400612109 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,72 +190,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0C701AE11FF22B1B00612109 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C701AEA1FF22B1B00612109 /* RuntimeTestTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701AEC1FF22B1B00612109 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C701AF51FF22B1B00612109 /* RuntimeTestUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B171FF33B9300612109 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B2E1FF33B9400612109 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0C701B391FF33B9400612109 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0C701AE71FF22B1B00612109 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C701ACC1FF22B1A00612109 /* RuntimeTest */;
-			targetProxy = 0C701AE61FF22B1B00612109 /* PBXContainerItemProxy */;
-		};
-		0C701AF21FF22B1B00612109 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C701ACC1FF22B1A00612109 /* RuntimeTest */;
-			targetProxy = 0C701AF11FF22B1B00612109 /* PBXContainerItemProxy */;
-		};
-		0C701B341FF33B9400612109 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C701B1A1FF33B9300612109 /* RuntimeTwo */;
-			targetProxy = 0C701B331FF33B9400612109 /* PBXContainerItemProxy */;
-		};
-		0C701B3F1FF33B9400612109 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C701B1A1FF33B9300612109 /* RuntimeTwo */;
-			targetProxy = 0C701B3E1FF33B9400612109 /* PBXContainerItemProxy */;
-		};
-		0C701B4E1FF33BA700612109 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0C701ACC1FF22B1A00612109 /* RuntimeTest */;
-			targetProxy = 0C701B4D1FF33BA700612109 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0C701AD61FF22B1A00612109 /* Main.storyboard */ = {
@@ -578,73 +274,6 @@
 			};
 			name = Release;
 		};
-		0C701AFE1FF22B1B00612109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTest.app/RuntimeTest";
-			};
-			name = Release;
-		};
-		0C701B011FF22B1B00612109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTest;
-			};
-			name = Release;
-		};
-		0C701B461FF33B9400612109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		0C701B491FF33B9400612109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTwo.app/RuntimeTwo";
-			};
-			name = Release;
-		};
-		0C701B4C1FF33B9400612109 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTwo;
-			};
-			name = Release;
-		};
 		0C701BEE1FF3918700612109 /* dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -704,73 +333,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = dev;
-		};
-		0C701BF01FF3918700612109 /* dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTest.app/RuntimeTest";
-			};
-			name = dev;
-		};
-		0C701BF11FF3918700612109 /* dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTest;
-			};
-			name = dev;
-		};
-		0C701BF21FF3918700612109 /* dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = dev;
-		};
-		0C701BF31FF3918700612109 /* dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTwo.app/RuntimeTwo";
-			};
-			name = dev;
-		};
-		0C701BF41FF3918700612109 /* dev */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTwo;
 			};
 			name = dev;
 		};
@@ -836,73 +398,6 @@
 			};
 			name = test;
 		};
-		0C701BF71FF3919100612109 /* test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTest.app/RuntimeTest";
-			};
-			name = test;
-		};
-		0C701BF81FF3919100612109 /* test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTest;
-			};
-			name = test;
-		};
-		0C701BF91FF3919100612109 /* test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = test;
-		};
-		0C701BFA1FF3919100612109 /* test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTwo.app/RuntimeTwo";
-			};
-			name = test;
-		};
-		0C701BFB1FF3919100612109 /* test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTwo;
-			};
-			name = test;
-		};
 		0C701BFC1FF3919B00612109 /* formate */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -965,73 +460,6 @@
 			};
 			name = formate;
 		};
-		0C701BFE1FF3919B00612109 /* formate */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTest.app/RuntimeTest";
-			};
-			name = formate;
-		};
-		0C701BFF1FF3919B00612109 /* formate */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTestUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTestUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTest;
-			};
-			name = formate;
-		};
-		0C701C001FF3919B00612109 /* formate */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = formate;
-		};
-		0C701C011FF3919B00612109 /* formate */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTwo.app/RuntimeTwo";
-			};
-			name = formate;
-		};
-		0C701C021FF3919B00612109 /* formate */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = RuntimeTwoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = runtime.RuntimeTwoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = RuntimeTwo;
-			};
-			name = formate;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1053,61 +481,6 @@
 				0C701BEF1FF3918700612109 /* dev */,
 				0C701BF61FF3919100612109 /* test */,
 				0C701BFD1FF3919B00612109 /* formate */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = dev;
-		};
-		0C701AFC1FF22B1B00612109 /* Build configuration list for PBXNativeTarget "RuntimeTestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C701AFE1FF22B1B00612109 /* Release */,
-				0C701BF01FF3918700612109 /* dev */,
-				0C701BF71FF3919100612109 /* test */,
-				0C701BFE1FF3919B00612109 /* formate */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = dev;
-		};
-		0C701AFF1FF22B1B00612109 /* Build configuration list for PBXNativeTarget "RuntimeTestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C701B011FF22B1B00612109 /* Release */,
-				0C701BF11FF3918700612109 /* dev */,
-				0C701BF81FF3919100612109 /* test */,
-				0C701BFF1FF3919B00612109 /* formate */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = dev;
-		};
-		0C701B441FF33B9400612109 /* Build configuration list for PBXNativeTarget "RuntimeTwo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C701B461FF33B9400612109 /* Release */,
-				0C701BF21FF3918700612109 /* dev */,
-				0C701BF91FF3919100612109 /* test */,
-				0C701C001FF3919B00612109 /* formate */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = dev;
-		};
-		0C701B471FF33B9400612109 /* Build configuration list for PBXNativeTarget "RuntimeTwoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C701B491FF33B9400612109 /* Release */,
-				0C701BF31FF3918700612109 /* dev */,
-				0C701BFA1FF3919100612109 /* test */,
-				0C701C011FF3919B00612109 /* formate */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = dev;
-		};
-		0C701B4A1FF33B9400612109 /* Build configuration list for PBXNativeTarget "RuntimeTwoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0C701B4C1FF33B9400612109 /* Release */,
-				0C701BF41FF3918700612109 /* dev */,
-				0C701BFB1FF3919100612109 /* test */,
-				0C701C021FF3919B00612109 /* formate */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = dev;
