@@ -7,7 +7,7 @@
 //
 
 #import "UILabel+category.h"
-#import "NSObject+ZYTSwizz.h"
+#import "ZYTObjectSwizzling.h"
 
 @implementation UILabel (category)
 
@@ -16,8 +16,9 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            [objc_getClass("UILabel") swizzMethodWithSysSelector:@selector(setText:) swizzMySelector:@selector(exchangeText:)];
-            [objc_getClass("UILabel") swizzMethodWithSysSelector:@selector(setTextColor:) swizzMySelector:@selector(exchangeTextColor:)];
+            
+            [ZYTObjectSwizzling swizzWithClass:[self class] withSysSelector:@selector(setText:) withMySelector:@selector(exchangeText:)];
+            [ZYTObjectSwizzling swizzWithClass:[self class] withSysSelector:@selector(setTextColor:) withMySelector:@selector(exchangeTextColor:)];
         }
     });
 }

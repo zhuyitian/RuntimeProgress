@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../RuntimeTestThree/RuntimeTestThree.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:../RuntimeTestTwo/RuntimeTestTwo.xcodeproj">
    </FileRef>
    <FileRef

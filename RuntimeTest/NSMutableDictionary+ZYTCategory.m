@@ -7,7 +7,8 @@
 //
 
 #import "NSMutableDictionary+ZYTCategory.h"
-#import "NSObject+ZYTSwizz.h"
+
+#import "ZYTObjectSwizzling.h"
 
 @implementation NSMutableDictionary (ZYTCategory)
 
@@ -16,8 +17,8 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         @autoreleasepool {
-            //类名后面跟的M表示可变字典，跟I表示不可变字典，跟0表示刚实例化还没有赋值
-            [objc_getClass("__NSDictionaryM") swizzMethodWithSysSelector:@selector(setObject:forKey:) swizzMySelector:@selector(safe_setObject:forKey:)];
+            
+            [ZYTObjectSwizzling swizzWithClass:[self class] withSysSelector:@selector(setObject:forKey:) withMySelector:@selector(safe_setObject:forKey:)];
             
         }
     });

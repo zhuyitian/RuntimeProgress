@@ -13,9 +13,9 @@
 		0C701ADA1FF22B1A00612109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C701AD91FF22B1A00612109 /* Assets.xcassets */; };
 		0C701ADD1FF22B1A00612109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C701ADB1FF22B1A00612109 /* LaunchScreen.storyboard */; };
 		0C701AE01FF22B1A00612109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701ADF1FF22B1A00612109 /* main.m */; };
-		0C701B041FF22B3600612109 /* NSObject+ZYTSwizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B031FF22B3600612109 /* NSObject+ZYTSwizz.m */; };
 		0C701B0D1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B0C1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m */; };
 		0C701B161FF2494700612109 /* UILabel+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B151FF2494700612109 /* UILabel+category.m */; };
+		0CE37A2B1FFA659200798266 /* ZYTObjectSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE37A2A1FFA659200798266 /* ZYTObjectSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,12 +33,12 @@
 		0C701AEB1FF22B1B00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C701AF41FF22B1B00612109 /* RuntimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestUITests.m; sourceTree = "<group>"; };
 		0C701AF61FF22B1B00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C701B021FF22B3600612109 /* NSObject+ZYTSwizz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYTSwizz.h"; sourceTree = "<group>"; };
-		0C701B031FF22B3600612109 /* NSObject+ZYTSwizz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZYTSwizz.m"; sourceTree = "<group>"; };
 		0C701B0B1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZYTCategory.h"; sourceTree = "<group>"; };
 		0C701B0C1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZYTCategory.m"; sourceTree = "<group>"; };
 		0C701B141FF2494700612109 /* UILabel+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+category.h"; sourceTree = "<group>"; };
 		0C701B151FF2494700612109 /* UILabel+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+category.m"; sourceTree = "<group>"; };
+		0CE37A291FFA659200798266 /* ZYTObjectSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTObjectSwizzling.h; sourceTree = "<group>"; };
+		0CE37A2A1FFA659200798266 /* ZYTObjectSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTObjectSwizzling.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +77,8 @@
 				0C701AD11FF22B1A00612109 /* AppDelegate.m */,
 				0C701AD31FF22B1A00612109 /* ViewController.h */,
 				0C701AD41FF22B1A00612109 /* ViewController.m */,
-				0C701B021FF22B3600612109 /* NSObject+ZYTSwizz.h */,
-				0C701B031FF22B3600612109 /* NSObject+ZYTSwizz.m */,
+				0CE37A291FFA659200798266 /* ZYTObjectSwizzling.h */,
+				0CE37A2A1FFA659200798266 /* ZYTObjectSwizzling.m */,
 				0C701B141FF2494700612109 /* UILabel+category.h */,
 				0C701B151FF2494700612109 /* UILabel+category.m */,
 				0C701B0B1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.h */,
@@ -185,8 +185,8 @@
 				0C701AD51FF22B1A00612109 /* ViewController.m in Sources */,
 				0C701B0D1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m in Sources */,
 				0C701AE01FF22B1A00612109 /* main.m in Sources */,
+				0CE37A2B1FFA659200798266 /* ZYTObjectSwizzling.m in Sources */,
 				0C701AD21FF22B1A00612109 /* AppDelegate.m in Sources */,
-				0C701B041FF22B3600612109 /* NSObject+ZYTSwizz.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
