@@ -16,6 +16,7 @@
 		0C701B0D1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B0C1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m */; };
 		0C701B161FF2494700612109 /* UILabel+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C701B151FF2494700612109 /* UILabel+category.m */; };
 		0CE37A2B1FFA659200798266 /* ZYTObjectSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE37A2A1FFA659200798266 /* ZYTObjectSwizzling.m */; };
+		0CE37A371FFB268E00798266 /* NSObject+ZYTSwizz.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE37A361FFB268E00798266 /* NSObject+ZYTSwizz.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,16 +30,14 @@
 		0C701ADC1FF22B1A00612109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C701ADE1FF22B1A00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C701ADF1FF22B1A00612109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C701AE91FF22B1B00612109 /* RuntimeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestTests.m; sourceTree = "<group>"; };
-		0C701AEB1FF22B1B00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0C701AF41FF22B1B00612109 /* RuntimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestUITests.m; sourceTree = "<group>"; };
-		0C701AF61FF22B1B00612109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C701B0B1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZYTCategory.h"; sourceTree = "<group>"; };
 		0C701B0C1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZYTCategory.m"; sourceTree = "<group>"; };
 		0C701B141FF2494700612109 /* UILabel+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+category.h"; sourceTree = "<group>"; };
 		0C701B151FF2494700612109 /* UILabel+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+category.m"; sourceTree = "<group>"; };
 		0CE37A291FFA659200798266 /* ZYTObjectSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTObjectSwizzling.h; sourceTree = "<group>"; };
 		0CE37A2A1FFA659200798266 /* ZYTObjectSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTObjectSwizzling.m; sourceTree = "<group>"; };
+		0CE37A351FFB268E00798266 /* NSObject+ZYTSwizz.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZYTSwizz.h"; sourceTree = "<group>"; };
+		0CE37A361FFB268E00798266 /* NSObject+ZYTSwizz.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZYTSwizz.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				0C701ACF1FF22B1A00612109 /* RuntimeTest */,
-				0C701AE81FF22B1B00612109 /* RuntimeTestTests */,
-				0C701AF31FF22B1B00612109 /* RuntimeTestUITests */,
 				0C701ACE1FF22B1A00612109 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +76,8 @@
 				0C701AD41FF22B1A00612109 /* ViewController.m */,
 				0CE37A291FFA659200798266 /* ZYTObjectSwizzling.h */,
 				0CE37A2A1FFA659200798266 /* ZYTObjectSwizzling.m */,
+				0CE37A351FFB268E00798266 /* NSObject+ZYTSwizz.h */,
+				0CE37A361FFB268E00798266 /* NSObject+ZYTSwizz.m */,
 				0C701B141FF2494700612109 /* UILabel+category.h */,
 				0C701B151FF2494700612109 /* UILabel+category.m */,
 				0C701B0B1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.h */,
@@ -90,24 +89,6 @@
 				0C701ADF1FF22B1A00612109 /* main.m */,
 			);
 			path = RuntimeTest;
-			sourceTree = "<group>";
-		};
-		0C701AE81FF22B1B00612109 /* RuntimeTestTests */ = {
-			isa = PBXGroup;
-			children = (
-				0C701AE91FF22B1B00612109 /* RuntimeTestTests.m */,
-				0C701AEB1FF22B1B00612109 /* Info.plist */,
-			);
-			path = RuntimeTestTests;
-			sourceTree = "<group>";
-		};
-		0C701AF31FF22B1B00612109 /* RuntimeTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0C701AF41FF22B1B00612109 /* RuntimeTestUITests.m */,
-				0C701AF61FF22B1B00612109 /* Info.plist */,
-			);
-			path = RuntimeTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +165,7 @@
 				0C701B161FF2494700612109 /* UILabel+category.m in Sources */,
 				0C701AD51FF22B1A00612109 /* ViewController.m in Sources */,
 				0C701B0D1FF2349A00612109 /* NSMutableDictionary+ZYTCategory.m in Sources */,
+				0CE37A371FFB268E00798266 /* NSObject+ZYTSwizz.m in Sources */,
 				0C701AE01FF22B1A00612109 /* main.m in Sources */,
 				0CE37A2B1FFA659200798266 /* ZYTObjectSwizzling.m in Sources */,
 				0C701AD21FF22B1A00612109 /* AppDelegate.m in Sources */,
